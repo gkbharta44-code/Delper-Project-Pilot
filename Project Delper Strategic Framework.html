@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Project Delper – Strategic Framework</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF1EE;--panel:#FFFFFF;--ink:#13292B;--mute:#4D6466;--line:#CBD5D2;--a:#1F7A6D;--b:#C98A10;--c:#3B5BA5;--d:#8A8F94;
+--hd:'Bricolage Grotesque','Helvetica Neue',Arial,sans-serif;--bd:'Source Serif 4',Georgia,serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C1819;--panel:#142628;--ink:#E6EEEC;--mute:#9DB3B1;--line:#284244;--a:#4CC1AE;--b:#E8B24A;--c:#8EA8E6;--d:#A3A9AE}}
+:root[data-theme="dark"]{--bg:#0C1819;--panel:#142628;--ink:#E6EEEC;--mute:#9DB3B1;--line:#284244;--a:#4CC1AE;--b:#E8B24A;--c:#8EA8E6;--d:#A3A9AE}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--bd)}
+.wrap{max-width:860px;margin:0 auto;padding:28px 20px 64px}
+.strap{font:500 13px/1.5 var(--hd);color:var(--mute);border-bottom:1px solid var(--line);padding-bottom:12px}
+h1{font:800 clamp(2.4rem,9vw,4.6rem)/1 var(--hd);letter-spacing:-.03em;margin:36px 0 12px}
+.lede{font-size:1.1rem;color:var(--mute);max-width:60ch;margin:0 0 28px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:8px}
+.fact{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.fact b{display:block;font:800 1.7rem/1.1 var(--hd)}
+.fact span{font-size:.9rem;color:var(--mute)}
+h2{font:700 1.6rem/1.2 var(--hd);letter-spacing:-.01em;margin:52px 0 14px}
+h3{font:700 1.05rem/1.3 var(--hd);margin:22px 0 4px}
+p{margin:0 0 14px;max-width:68ch}
+ul{padding-left:20px;max-width:68ch}li{margin-bottom:8px}
+.split{display:flex;height:44px;border-radius:4px;overflow:hidden;margin:18px 0 12px}
+.split i{display:block}
+.legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.leg{border-left:6px solid var(--k);background:var(--panel);padding:10px 14px;border-radius:0 6px 6px 0}
+.leg b{font:800 1.35rem var(--hd);display:block}
+.leg strong{font:700 .95rem var(--hd)}
+.leg span{display:block;font-size:.88rem;color:var(--mute);line-height:1.45;margin-top:4px}
+.key{display:flex;gap:18px;font:500 .9rem var(--hd);margin:6px 0 14px;flex-wrap:wrap}
+.key i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.row{padding:9px 0;border-bottom:1px solid var(--line)}
+.row .t{display:flex;justify-content:space-between;gap:12px;font-size:.95rem;line-height:1.4}
+.row .t em{font:700 .95rem var(--hd);font-style:normal;white-space:nowrap}
+.bar{height:8px;border-radius:4px;background:var(--k);margin-top:6px;min-width:3px;width:var(--w)}
+.total{display:flex;justify-content:space-between;gap:12px;padding:14px 0;font:800 1.2rem var(--hd)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.95rem;min-width:520px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 .9rem var(--hd)}
+.phase{display:grid;gap:12px;margin:12px 0}
+@media(min-width:640px){.phase{grid-template-columns:1fr 1fr}}
+.phase div{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.phase p{margin:6px 0 0;font-size:.97rem}
+.verdict{background:var(--ink);color:var(--bg);border-radius:6px;padding:22px 22px 10px;margin-top:20px}
+.verdict h3{margin-top:0}
+.verdict p{max-width:none}
+footer{margin-top:44px;font:500 .85rem var(--hd);color:var(--mute);border-top:1px solid var(--line);padding-top:14px}
+:focus-visible{outline:3px solid var(--b);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="strap">Delper Global – The No Cash Rewards Platform. KYC and OTP authorization mandatory. No biometric tracking. Onboard, redeem rewards, best-rated vendors, best price at your door step.</div>
+
+<h1>Project Delper</h1>
+<p class="lede">Strategic framework and master institutional requirements document. Pre-seed capital of USD 3 million; USD 300 million seed capital raised within 6 months of pre-seed.</p>
+
+<div class="facts">
+<div class="fact"><b>$601.362B</b><span>Total gross annual inflows</span></div>
+<div class="fact"><b>19</b><span>Operating revenue streams</span></div>
+<div class="fact"><b>$300M</b><span>Initial non-leveraged equity from a Single Family Office</span></div>
+<div class="fact"><b>&gt;95%</b><span>Core operating margin target</span></div>
+</div>
+
+<h2>1. Corporate architecture and regulatory domicile</h2>
+<p>Project Delper is a private global digital infrastructure ecosystem with a dual-entity architecture centered in Singapore. Active commercial operations (software engineering, ad platform management and data telemetry clearing) sit inside a Singapore Holding Company (HoldCo) parent structure.</p>
+<p>To comply with the Accounting and Corporate Regulatory Authority (ACRA) and the Monetary Authority of Singapore (MAS), investments are separated into an onshore Singapore Variable Capital Company (VCC). The VCC is a passive fund that manages fixed-income assets and real estate equities under its licensed fund manager.</p>
+<p>The ecosystem is anchored by an initial, non-leveraged growth equity injection of $300 million from a Single Family Office (SFO). To maintain data confidentiality, the whole corporate footprint is chartered to remain permanently private.</p>
+
+<h2>2. The 30/30/30/10 master capital partition protocol</h2>
+<p>All inbound operational revenue processed through HoldCo is split automatically at the checkpoint billing gate, under a hardcoded allocation matrix administered by external auditors.</p>
+<div class="split" role="img" aria-label="Revenue split: 30 percent user loyalty, 30 percent platform operations, 30 percent Delper share, 10 percent contingency">
+<i style="width:30%;background:var(--a)"></i><i style="width:30%;background:var(--c)"></i><i style="width:30%;background:var(--b)"></i><i style="width:10%;background:var(--d)"></i>
+</div>
+<div class="legend">
+<div class="leg" style="--k:var(--a)"><strong>30% User loyalty</strong><b>$180.408B</b><span>Distributed as closed-loop store credits to secure vendor loyalty.</span></div>
+<div class="leg" style="--k:var(--c)"><strong>30% Platform ops</strong><b>$180.408B</b><span>Dedicated to data pipelines, tech infrastructure and security nodes.</span></div>
+<div class="leg" style="--k:var(--b)"><strong>30% Delper share</strong><b>$180.408B</b><span>Extracted as tax-free private dividends directly to SFO bank accounts.</span></div>
+<div class="leg" style="--k:var(--d)"><strong>10% Contingency</strong><b>$60.136B</b><span>Held as a liquid cash vault to insulate from macro shocks.</span></div>
+</div>
+
+<h2>3. Core financial registry: the 19 operating streams</h2>
+<p>The primary cash generation engine is 19 high-margin operating streams that flow directly into HoldCo. Figures are annual, in millions of USD.</p>
+<div class="key"><span><i style="background:var(--a)"></i>SaaS &amp; AdTech Platform</span><span><i style="background:var(--b)"></i>FinTech &amp; Arbitrage Clearing</span></div>
+<div id="streams"></div>
+<div class="total"><span>Total gross operating revenue</span><span>$601,362M</span></div>
+
+<h2>4. Global onboarding and strict verification architecture</h2>
+<p>User acquisition integrates with existing regional digital payment architectures, mobile data infrastructure and non-invasive software endpoints. To align with global privacy frameworks (including GDPR in Europe and state laws such as Illinois BIPA in the United States), no biometric details are collected, stored or processed anywhere in the network.</p>
+<ul>
+<li><strong>Mandatory identification protocol.</strong> To verify unique identity and authorize redemption of closed-loop rewards, every user completes a streamlined digital Know Your Customer (KYC) check tied to local structural registries.</li>
+<li><strong>OTP and multi-factor security.</strong> Account validation and transaction security clear through a real-time, network-delivered One-Time Password (OTP) layer. In highly restrictive privacy jurisdictions, the interface runs on a zero-biometric haptic fallback to avoid camera tracking while still verifying human command.</li>
+</ul>
+<h3>Regional scaling anchors</h3>
+<div class="scroll"><table>
+<tr><th>Region</th><th>Onboarding integration</th></tr>
+<tr><td>India</td><td>Bharat Bill Payment System (BBPS) and NPCI rails</td></tr>
+<tr><td>China</td><td>WeChat Mini-Programs</td></tr>
+<tr><td>Indonesia</td><td>GrabMart / GoMart</td></tr>
+<tr><td>Africa</td><td>MTN, Airtel, and Safaricom/M-Pesa mobile money merchant networks</td></tr>
+<tr><td>Mexico</td><td>Regional urban building administrations</td></tr>
+<tr><td>Brazil</td><td>Pix business payment codes</td></tr>
+<tr><td>United States</td><td>Apartment portals such as Nextdoor</td></tr>
+</table></div>
+
+<h2>5. Sovereign capital reinvestment and global GDP expansion model</h2>
+<p>A structured fixed-income rollover engine matches real-world market capacity, capital safety and sovereign yield structures.</p>
+<div class="phase">
+<div><h3>Years 1–28: capital accumulation</h3><p>The passive Singapore VCC deploys $180.408 billion a year (the 30% allocation) into senior-secured, 20-year Sovereign Government Infrastructure Bonds, benchmarked to emerging-market public infrastructure yields. Projects (transit, utilities, logistics corridors) are executed by third-party global EPC contractors under a BOOT (Build-Own-Operate-Transfer) framework.</p></div>
+<div><h3>Year 29 onwards: continuous roll-over</h3><p>As 20-year tranches mature, principal returns to the VCC treasury and the physical assets revert 100% to host nations. This removes long-term maintenance and depreciation liabilities from Delper's ledger, so the investment manager can reinvest the principal into fresh sovereign bond tranches.</p></div>
+</div>
+<h3>Direct macroeconomic impact</h3>
+<p>By anchoring these multi-billion dollar annual purchases into specific-performance infrastructure tranches, the VCC's bond purchases stimulate global economic output. The injection into hard public assets is intended to trigger a fiscal multiplier, lifting global GDP through raw materials procurement, industrial contract velocity and supply-side logistics efficiency.</p>
+
+<h2>6. Institutional guardrails and risk shielding</h2>
+<ul>
+<li><strong>Financial shielding.</strong> The platform operates as an asset-light data clearinghouse with no direct loan underwriting, default or credit risk. 100% of consumer credit exposure passes to partner institutional banking networks.</li>
+<li><strong>Technology sandboxing.</strong> Computation runs on hardcoded hardware infrastructure protected by one-way entry registries and secure front-end components. AI tools act purely as data porters with zero executive command authority, backed by automated sandboxed filters on custom front-end chips to prevent logic drift.</li>
+</ul>
+
+<h2>7. Viability, financial ratios and economic moat</h2>
+<ul>
+<li><strong>Breakeven profile.</strong> A Day 1 operating surplus: core software subscriptions and media indexing fees are invoiced and collected upfront before scaling, so HoldCo keeps a near-zero capital burn rate.</li>
+<li><strong>Debt service coverage ratio.</strong> Infinite, because the capital layout is entirely equity-funded and non-leveraged.</li>
+<li><strong>Core operating margin.</strong> Above 95% across all SaaS and clearing lines, by passing physical inventory, storage and logistics liabilities to third-party suppliers through automated SLAs.</li>
+<li><strong>Tax optimization.</strong> Local indirect and municipal taxes are paid at source in host jurisdictions. Post-tax residual software profits route to the Singapore HoldCo and parent entities, where foreign-sourced dividends and bond coupons clear under the Section 13U Scheme and Singapore's single-tier framework.</li>
+<li><strong>The closed-loop moat.</strong> Returning 30% of operating revenue to users as closed-loop store credits keeps transaction velocity inside the Delper partner merchant framework, legally binding enterprise vendors to HoldCo's predictive intent data network.</li>
+</ul>
+
+<div class="verdict">
+<h3>Definitive institutional verdict</h3>
+<p>Project Delper is presented as finalized and cleared for operational execution. Separating active marketplace workflows (Singapore HoldCo) from passive treasury allocations (Singapore VCC) is stated to satisfy onshore compliance under MAS and ACRA. The blueprint targets the dual mandate family offices require: infinite capital scalability and risk isolation.</p>
+<h3>Core risk and validation assessment</h3>
+<p><strong>Mathematical precision.</strong> Every dollar of the $601.362 billion baseline is accounted for across the 30/30/30/10 partition.</p>
+<p><strong>Liability isolation.</strong> Consumer credit, inventory and physical infrastructure liabilities pass to third-party institutions and the BOOT framework, keeping HoldCo's balance sheet asset-light.</p>
+<p><strong>Regulatory and data security.</strong> With zero biometric data and validation by digital KYC and OTP only, the document states the system has total immunity from cross-border data privacy constraints (GDPR/BIPA).</p>
+<p><strong>Tax efficiency.</strong> The pipeline uses Singapore's network of over 90 Double Taxation Avoidance Agreements and the Section 13U Scheme, so foreign-sourced inflows are stated to reach SFO bank accounts withholding-free.</p>
+</div>
+
+<div class="fact" style="margin-top:28px;border-left:6px solid var(--b)"><b style="font-size:1.1rem">Disclaimer</b><span>Not an investment ask.</span></div>
+
+<footer>Master Institutional Requirements Document. Delper Global – KYC and OTP authorization mandatory. No biometric tracking.</footer>
+</div>
+<script>
+var S=[["Fixed B2B Predictive Subscriptions",159840,"a"],["Holiday B2B Food Commodity Arbitrage",72000,"b"],["Predictive Real-Time Bidding (RTB) Spreads",67200,"b"],["O2O Postal Media Product Indexing",51960,"a"],["Weekly Wellness Product Arbitrage",51960,"b"],["Live Broadcast Video Commerce Fees",49200,"b"],["Weekly Apparel & T-Shirt Arbitrage",25980,"b"],["Home Screen Quad-Banner Placements",23760,"a"],["B2G Public Sector Governance Portal Fees",21600,"a"],["Optional Cost-Per-View (CPV) Movie Ads",18000,"a"],["Monthly Employment Classifieds Network",12000,"a"],["Capital Markets Retail Allocation Cuts (18%)",10800,"b"],["Credit Markets Matching Network Fees (18%)",10800,"b"],["Matrimony AdTech Target Layers",6000,"a"],["Monthly Local Travel Placements",6000,"a"],["Monthly Culinary Kit Smart Contracts",6000,"b"],["InsureShield Retail Broker Cuts (18%)",5400,"b"],["Wrapper Branding Packaging Partnerships (CPM)",1662,"a"],["Bi-Weekly Local Hero Media Slots",1200,"a"]];
+var h="";S.forEach(function(s){h+='<div class="row"><div class="t"><span>'+s[0].replace(/&/g,"&amp;")+'</span><em>$'+s[1].toLocaleString("en-US")+'M</em></div><div class="bar" style="--k:var(--'+s[2]+');--w:'+(s[1]/159840*100).toFixed(2)+'%"></div></div>'});
+document.getElementById("streams").innerHTML=h;
+</script>
+</body>
+</html>
